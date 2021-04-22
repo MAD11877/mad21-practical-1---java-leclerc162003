@@ -30,12 +30,12 @@ public class Question5
      */
     ArrayList<Integer> intset = new ArrayList<>();
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter Integer: ");
+    //System.out.print("Enter Integer: ");
     int integer = in.nextInt();
 
     for(int j=1; j <= integer; j ++){
       Scanner set = new Scanner(System.in);
-      System.out.printf("Enter Integer %s: ", j);
+      //System.out.printf("Enter Integer %s: ", j);
       int setin = set.nextInt();
       intset.add(setin);
     }
