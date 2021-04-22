@@ -34,9 +34,9 @@ public class Question5
     int integer = in.nextInt();
 
     for(int j=1; j <= integer; j ++){
-      Scanner set = new Scanner(System.in);
+      //Scanner set = new Scanner(System.in);
       //System.out.printf("Enter Integer %s: ", j);
-      int setin = set.nextInt();
+      int setin = in.nextInt();
       intset.add(setin);
     }
     int maxvalue = 0;
